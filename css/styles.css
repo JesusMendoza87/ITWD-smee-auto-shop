@@ -10,3 +10,31 @@
     background-size: cover;
     background-position: center center;
 }
+nav, footer{
+    background-color: var(--primary-theme-color);
+}
+
+main{
+    margin: 5.5rem 0;
+}
+
+.heading-theme-color{
+    color: var(--primary-theme-color);
+    border-color: var(--primary-theme-color) !important;
+}
+
+section{
+    margin: 6rem 0;
+}
+#smog-tab-pane ul{
+    list-style: none;
+}
+li#star-cert{
+    color: red;
+}
+#smog-tab-pane li::before{
+    content: "•";
+    color: black;
+    margin-right: 10px;    
+}
+
