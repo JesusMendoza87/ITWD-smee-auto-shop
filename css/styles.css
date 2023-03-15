@@ -4,3 +4,46 @@
     /* option 2: #006ACD; */
     --accent-theme-color: #8FC9FF;
 }
+
+nav, footer {
+    background-color: var(--primary-theme-color);
+}
+
+#jumbotron-section {
+height: 560px;
+background-image: url("../img/auto-shop-3.jpg");
+background-size: cover;
+background-position:center center;
+}
+
+main {
+    margin: 5.5rem 0;
+}
+
+.heading-theme-color {
+    color: var(--primary-theme-color);
+    border-color: var(--primary-theme-color) !important;
+}
+
+section {
+    margin: 6rem 0;
+}
+Collapse
+
+
+
+white_check_mark
+eyes
+raised_hands
+
+
+
+
+
+
+
+
+
+
+
+
