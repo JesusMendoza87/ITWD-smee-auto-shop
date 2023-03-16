@@ -11,6 +11,7 @@
     <!-- Bootstrap v5.2 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bd4cfb09ff.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css">
@@ -44,11 +45,66 @@
               </div>
             </div>
           </nav>
+          </header>
         <!-- JUMBOTRON (add if I want) -->
-    </header>
     <!-- MAIN CONTENT -->
-    <main>
+    <main id="column">
+      <div class="container" id="form-wrapper">
+        <form action="action_page.php">
+     
+          <label for="fname" >First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+     
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+     
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="blank">...</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="brazil">Brazil</option>
+            <option value="mexico">Mexico</option>
+          </select>
+     
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+     
+          <input type="submit" value="Submit">
+     
+        </form>
+</div>
+
+    <div id="buttons" class="d-md-flex jusitfy-content-md-center">
+
+      <button type="button" class="btn btn-primary btn-lg">
+        <i class="fa-solid fa-question"></i>
+        Order Questions</button>
+
+      <button type="button" class="btn btn-primary btn-lg">
+        <i class="fa-solid fa-screwdriver-wrench"></i>
+        Parts</button>
+
+      <button type="button" class="btn btn-primary btn-lg">
+        <i class="fa-solid fa-shop"></i>
+        Store experince</button>
+
+      <button type="button" class="btn btn-primary btn-lg">
+        <i class="fa-solid fa-link-slash"></i>
+        Issues?</button>
+
+      <button type="button" class="btn btn-primary btn-lg">
+        <i class="fa-solid fa-globe"></i>
+        More Locations</button>
+
+      <button type="button" class="btn btn-primary btn-lg">
+        <i class="fa-solid fa-gifts"></i>
+        Rewards</button>
+      </div>
+
     </main>
+
     <footer class="container-fluid px-0  text-light">
       <div class="container">
           <div class="row">
