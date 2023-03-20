@@ -1,0 +1,7 @@
+#main-parallax{
+    background-image: url("../img/auto-shop-0.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 120px;
+}
